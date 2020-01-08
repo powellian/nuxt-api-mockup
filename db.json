@@ -1,0 +1,64 @@
+{
+	"items": [
+	 {
+		"id": 1,
+		"snippet": {
+		 "title": "Redhed @ The Island, Ilford, September 1997",
+		 "description": "Setlist:\nBigup\nEverybody Wants to Know\nRising of the Sun (I'll show you)\nBouncer\nDrama Queen\nAmericanitis\nSettle Down\nOriginal",
+		 "thumbnails": {
+			"high": {
+			 "url": "https://i.ytimg.com/vi/e03DrQmQqak/hqdefault.jpg",
+			 "width": 480,
+			 "height": 360
+			},
+			"standard": {
+			 "url": "https://i.ytimg.com/vi/e03DrQmQqak/sddefault.jpg",
+			 "width": 640,
+			 "height": 480
+			}
+		 },
+		 "videoId": "e03DrQmQqak"
+		}
+	 },
+	 {
+		"id": 2,
+		"snippet": {
+		 "title": "Redhed @ Splash Club, Kings Cross, 1996/7 (not sure when)",
+		 "description": "One of the Splash gigs, always vibey nights with great sound.\n\nAmericanitis was debuted that night; we were the 1st to do live jungle in a band scenario like that back in 96/97, certainly in a heavy style (this was before it was renamed D&B by the play-it-safe industry). The song was refined a little over the next year-or-so but the main essence was there in this first live performance. Here's one studio version from Leeds in Summer '98, all parts played live, 1st or 2nd take: https://soundcloud.com/powellian/americanitis\n\nJim's teeshirt in this Splash gig, think it was Mr Messy - best dressed man.",
+		 "thumbnails": {
+			"high": {
+			 "url": "https://i.ytimg.com/vi/9ILHJNLe9sE/hqdefault.jpg",
+			 "width": 480,
+			 "height": 360
+			},
+			"standard": {
+			 "url": "https://i.ytimg.com/vi/9ILHJNLe9sE/sddefault.jpg",
+			 "width": 640,
+			 "height": 480
+			}
+		 },
+		 "videoId": "9ILHJNLe9sE"
+		}
+	 },
+	 {
+		"id": 3,
+		"snippet": {
+		 "title": "Leeds (festival name unknown), 1997",
+		 "description": "Tech issues for Doug, snare drums left behind in London (how the hell?) - otherwise it kicked off. Big shout to Les for the 'road management'.\n\n\nWe played a number of gigs in Leeds including this festival, built an audience there, good times. That sweaty basement venue ... Baz, if you ever see this what was the name of that venue?\n\n\nThat's Baz in the redhed T - clearly a man of musical and sartorial taste.",
+		 "thumbnails": {
+			"high": {
+			 "url": "https://i.ytimg.com/vi/at07uRkWrIw/hqdefault.jpg",
+			 "width": 480,
+			 "height": 360
+			},
+			"standard": {
+			 "url": "https://i.ytimg.com/vi/at07uRkWrIw/sddefault.jpg",
+			 "width": 640,
+			 "height": 480
+			}
+		 },
+		 "videoId": "at07uRkWrIw"
+		}
+	 }
+	]
+}

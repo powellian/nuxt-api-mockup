@@ -1,0 +1,8 @@
+_etc
+node_modules
+dist
+# package-lock.json
+
+.nuxt
+# Local Netlify folder
+.netlify
