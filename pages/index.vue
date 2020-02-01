@@ -10,7 +10,9 @@
   </div>
 </template>
 <script>
+import EventService from '@/services/GetAPI.js'
 import VideoCard from '@/components/VideoCard.vue'
+
 export default {
   head() {
     return {
@@ -24,20 +26,20 @@ export default {
       ]
     }
   },
-  async asyncData({ $axios, error }) {
-    try {
-      // const { data } = await $axios.get( 'http://localhost:3000/items' )
-      const { data } = await $axios.get( 'http://my-json-server.typicode.com/powellian/placeborepo/items' )
-      return {
-        items: data
-      }
-    } catch(e) {
-      error({
-        statusCode: 503,
-        message: 'Whoops: 503'
-      })
-    }
-  },
+  // async asyncData({ $axios, error }) {
+  //   try {
+  //     // const { data } = await $axios.get( 'http://localhost:3000/items' )
+  //     const { data } = await $axios.get( 'http://my-json-server.typicode.com/powellian/placeborepo/items' )
+  //     return {
+  //       items: data
+  //     }
+  //   } catch(e) {
+  //     error({
+  //       statusCode: 503,
+  //       message: 'Whoops: 503'
+  //     })
+  //   }
+  // },
   components: {
     VideoCard
   }
