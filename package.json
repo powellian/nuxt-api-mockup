@@ -12,18 +12,18 @@
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
   },
   "dependencies": {
-    "@nuxtjs/axios": "^5.8.0",
-    "@nuxtjs/pwa": "^3.0.0-0",
-    "nuxt": "^2.10.2",
+    "@nuxtjs/axios": "^5.12.2",
+    "@nuxtjs/pwa": "^3.0.2",
+    "nuxt": "^2.14.4",
     "youtube-search-api-with-axios": "^2.0.0"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^1.0.1",
-    "@nuxtjs/eslint-module": "^1.0.0",
-    "babel-eslint": "^10.0.1",
-    "eslint": "^6.7.2",
-    "eslint-plugin-nuxt": "^0.5.0",
-    "node-sass": "^4.13.0",
-    "sass-loader": "^8.0.0"
+    "@nuxtjs/eslint-module": "^1.2.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-nuxt": "^0.5.2",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2"
   }
 }

@@ -1,4 +1,6 @@
 # nuxt-api-mockup
+![David](https://img.shields.io/david/powellian/nuxt-api-mockup)
+
 Mockup of Youtube API - uses 'live' API (hosted at my-json-server) replicating some aspects of the 'real' YT API endpoints from a typical channel.
 
 Built using [Nuxt](https://nuxtjs.org) - The Progressive Vue.js Framework.

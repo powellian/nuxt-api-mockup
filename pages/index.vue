@@ -1,6 +1,5 @@
 <template>
   <div class="slim-wrapper">
-    <h1>FAKR</h1>
     <VideoCard
       v-for="(item, index) in items"
       :key="index"

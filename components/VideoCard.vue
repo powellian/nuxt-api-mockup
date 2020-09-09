@@ -1,6 +1,5 @@
 <template>
-	<!-- <nuxt-link :to="`/video/${item.id}`"> -->
-	<nuxt-link :to="'/videos/' + item.id">
+	<nuxt-link :to="`/videos/${item.id}`">
 		<div class="vid-card">
 			<p>{{ item.snippet.title }}</p>
 			<img :src="item.snippet.thumbnails.high.url" :alt="item.snippet.title">

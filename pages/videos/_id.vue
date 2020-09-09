@@ -23,22 +23,22 @@ export default {
 			]
 		}
 	},
-	// async asyncData({ $axios, error, params }) {
-	// 	try {
-	// 		const { data } = await $axios.get(
-	// 			// `http://localhost:3000/items/${params.id}`
-	// 			`http://my-json-server.typicode.com/powellian/placeborepo/items/${params.id}`
-	// 		)
-	// 		return {
-	// 			item: data
-	// 		}
-	// 	} catch(e) {
-	// 		error({
-	// 			statusCode: 503,
-	// 			message: `Whoops unable to fetch video: ${params.id}`
-	// 		})
-	// 	}
-	// }
+	async asyncData({ $axios, error, params }) {
+		try {
+			const { data } = await $axios.get(
+				// `http://localhost:3000/items/${params.id}`
+				`http://my-json-server.typicode.com/powellian/placeborepo/items/${params.id}`
+			)
+			return {
+				item: data
+			}
+		} catch(e) {
+			error({
+				statusCode: 503,
+				message: `Whoops unable to fetch video: ${params.id}`
+			})
+		}
+	}
 }
 </script>
 
