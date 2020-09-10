@@ -1,9 +1,9 @@
 <template>
 	<nuxt-link :to="`/videos/${item.id}`">
-		<div class="vid-card">
-			<p>{{ item.snippet.title }}</p>
-			<img :src="item.snippet.thumbnails.high.url" :alt="item.snippet.title">
-		</div>
+		<v-card rounded="0">
+			<v-card-title>{{ item.snippet.title }}</v-card-title>
+			<v-img :src="item.snippet.thumbnails.high.url" :alt="item.snippet.title" width="auto" max-height="300px"></v-img>
+		</v-card>
 	</nuxt-link>
 </template>
 

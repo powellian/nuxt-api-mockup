@@ -1,12 +1,19 @@
 <template>
-  <div class="slim-wrapper">
+  <!-- <div class="slim-wrapper"> -->
+    <v-container>
+      <v-row dense>
+        <v-col cols="6">
     <VideoCard
       v-for="(item, index) in items"
       :key="index"
       :item="item"
       :data-index="index"
     />
-  </div>
+
+        </v-col>
+      </v-row>
+    </v-container>
+  <!-- </div> -->
 </template>
 <script>
 import VideoCard from '@/components/VideoCard.vue'
