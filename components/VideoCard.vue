@@ -1,10 +1,12 @@
 <template>
-	<nuxt-link :to="`/videos/${item.id}`">
-		<v-card rounded="0">
-			<v-card-title>{{ item.snippet.title }}</v-card-title>
-			<v-img :src="item.snippet.thumbnails.high.url" :alt="item.snippet.title" width="auto" max-height="300px"></v-img>
-		</v-card>
-	</nuxt-link>
+	<v-col cols="6">
+		<nuxt-link :to="`/videos/${item.id}`">
+			<v-card rounded="0">
+				<v-card-title>{{ item.snippet.title }}</v-card-title>
+				<v-img :src="item.snippet.thumbnails.high.url" :alt="item.snippet.title" width="auto" max-height="300px"></v-img>
+			</v-card>
+		</nuxt-link>
+	</v-col>
 </template>
 
 <script>

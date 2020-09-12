@@ -52,4 +52,8 @@ html {
   width: 50%;
   margin: 0 auto;
 }
+
+.container.h-collapse {
+  min-height: auto;
+}
 </style>
